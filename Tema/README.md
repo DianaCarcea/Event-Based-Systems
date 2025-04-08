@@ -20,6 +20,7 @@ Implementarea unui program care să genereze aleator **seturi de subscriptii și
 |------------------------|------------------------------|
 | 1                      | Fără paralelizare (secvențial) |
 | 4                      | Paralelizare cu 4 threads     |
+| 10                      | Paralelizare cu 10 threads     |
 
 ### 📊 Numarul de mesaje generate
 
@@ -30,12 +31,15 @@ Implementarea unui program care să genereze aleator **seturi de subscriptii și
 
 | Nr. Threads | Publicatii (ms) | Subscriptii (ms) |
 |-------------|------------------|------------------|
-| 1           | 0             | 0             |
-| 4           | 0             | 0             |
+| 1           | 721             | 130             |
+| 4           | 154             | 87             |
+| 10           | 158             | 104             |
 
 ### 🖥️ Specificatii sistem de test
 
-- **Procesor:** 0
-- **RAM:** 0
-- **Sistem de operare:** 0
-- **Java Version:** 0
+- **Procesor:** Intel Core i5-6500 @ 3.20 GHz
+- **Număr de nuclee fizice:** 4
+- **Număr de threads/logical cores:** 4 threads
+- **RAM:** 16GB
+- **Sistem de operare:** Windows 11
+- **Java Version:** OpenJDK 21
